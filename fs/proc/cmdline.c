@@ -52,7 +52,3 @@ static int __init proc_cmdline_init(void)
 	proc_create("cmdline", 0, NULL, &cmdline_proc_fops);
 	return 0;
 }
-module_init(proc_cmdline_init);
-© 2019 GitHub, Inc.
-Terms
-Priva
